@@ -1,0 +1,9 @@
+{
+  "name": "Rocketseat-lading-page",
+  "short_name": "Moveit",
+  "theme_color": "#5965e0",
+  "background_color": "#f2f3f5",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}

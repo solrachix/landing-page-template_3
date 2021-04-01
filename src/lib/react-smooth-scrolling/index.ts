@@ -50,7 +50,7 @@ export default function SmoothProvider(_a) {
   const size = useWindowSize()
   useRef()
   // Ref for parent div and scrolling div
-  const scrollContainer = useRef(null)
+  const scrollContainer = useRef<HTMLDivElement>(null)
   // Configs
   const data = {
     ease: Math.max(

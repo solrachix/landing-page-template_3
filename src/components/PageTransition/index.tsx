@@ -68,16 +68,18 @@ export const PageTransition = ({ children, ...props }) => {
               </LottieContainer>
             )}
 
-            <animated.div
-              style={{
-                opacity: spring.opacity,
-                transform: `scale(${spring.scale})`
-              }}
-            >
-              {children(
-                item ? { Component, pageProps: props && props.pageProps } : {}
-              )}
-            </animated.div>
+            {finishing && (
+              <animated.div
+                style={{
+                  opacity: spring.opacity,
+                  transform: `scale(${spring.scale})`
+                }}
+              >
+                {children(
+                  item ? { Component, pageProps: props && props.pageProps } : {}
+                )}
+              </animated.div>
+            )}
           </Page>
         )
       })}
@@ -87,7 +89,11 @@ export const PageTransition = ({ children, ...props }) => {
 
 const Page = styled(animated.div)`
   min-height: 100%;
-  height: 100%;
+  height: 100vh;
+
+  & > div {
+    height: inherit;
+  }
 `
 const LottieContainer = styled(animated.div)`
   position: fixed;

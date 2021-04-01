@@ -15,9 +15,9 @@ function GlobalAnimations({ children }: GlobalAnimationsProps) {
     <Container>
       <Cursor color="#04d361" />
 
-      {/* <SmoothScroll skew> */}
-      {children}
-      {/* <Swiper
+      <SmoothScroll skew>
+        {children}
+        {/* <Swiper
           direction="vertical"
           slidesPerView="auto"
           freeMode
@@ -26,7 +26,7 @@ function GlobalAnimations({ children }: GlobalAnimationsProps) {
         >
           <SwiperSlide>{children}</SwiperSlide>
         </Swiper> */}
-      {/* </SmoothScroll> */}
+      </SmoothScroll>
     </Container>
   )
 }

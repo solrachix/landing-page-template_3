@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "knex:migrate": "knex migrate:latest --knexfile knexfile.ts migrate:latest"
+    "start": "next start"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -21,6 +20,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.2.0",
+    "react-lottie": "^1.2.3",
     "react-spring": "^8.0.27",
     "sqlite3": "^5.0.2",
     "styled-components": "^5.2.1",
@@ -32,6 +32,7 @@
     "@types/next-auth": "^3.1.24",
     "@types/node": "^14.11.2",
     "@types/react": "^16.9.49",
+    "@types/react-lottie": "^1.2.5",
     "@types/styled-components": "^5.1.3",
     "@typescript-eslint/eslint-plugin": "^3.9.1",
     "@typescript-eslint/parser": "^3.9.1",

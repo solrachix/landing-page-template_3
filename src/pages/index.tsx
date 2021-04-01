@@ -347,10 +347,7 @@ const App = () => {
                   <div className="teacher">
                     <span>Educador:</span>
                     <div>
-                      <img
-                        src="/images/diego-fernandes.jpg"
-                        alt="Diego Fernandes"
-                      />
+                      <img src={trail.teacherAvatar} alt={trail.teacher} />
                       <h3 className="subTitleSection">{trail.teacher}</h3>
                     </div>
                     <p className="paragraph">{trail.teacherDescription}</p>

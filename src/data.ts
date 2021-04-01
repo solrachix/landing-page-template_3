@@ -15,7 +15,8 @@ export default {
       teacherDescription: `Responsável pela área de tecnologia na Rocketseat - onde
       utilizamos principalmente Node.js e ReactJS para atender
       quase meio milhão de usuários na nossa plataforma - é o
-      educador que vai te guiar no Ignite ReactJS.`
+      educador que vai te guiar no Ignite ReactJS.`,
+      teacherAvatar: '/images/diego-fernandes.jpg'
     },
     {
       Icon: Node,
@@ -25,7 +26,8 @@ export default {
         'Se o seu objetivo está alinhado com o back-end, e você deseja construir arquiteturas escaláveis e simples para a web utilizando uma linguagem flexível e popular, essa trilha é para você.',
       teacher: 'Daniele Evangelista',
       teacherDescription:
-        'Formada em Sistemas de Informação e há 11 anos atuando no mercado como programadora, foi responsável pelo time de educação aqui na Rocketseat e é a educadora que vai te guiar no Ignite Node.js.'
+        'Formada em Sistemas de Informação e há 11 anos atuando no mercado como programadora, foi responsável pelo time de educação aqui na Rocketseat e é a educadora que vai te guiar no Ignite Node.js.',
+      teacherAvatar: '/images/daniele-evangelista.jpeg'
     },
     {
       Icon: Elixir,
@@ -35,7 +37,8 @@ export default {
         'SSe o seu objetivo está alinhado com o back-end, e você deseja construir aplicações distribuídas, escaláveis e tolerantes a falhas utilizando programação funcional, essa trilha é para você.',
       teacher: 'Rafael Camarda',
       teacherDescription:
-        'Formado em Engenharia de Computação pela Universidade Federal de Ouro Preto, iniciou sua jornada de ensino ainda na universidade. Há 6 anos no mercado como programador, é o educador que vai te guiar Ignite Elixir.'
+        'Formado em Engenharia de Computação pela Universidade Federal de Ouro Preto, iniciou sua jornada de ensino ainda na universidade. Há 6 anos no mercado como programador, é o educador que vai te guiar Ignite Elixir.',
+      teacherAvatar: '/images/rafael-camarda.png'
     }
   ],
   testimonies: [

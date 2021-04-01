@@ -1,8 +1,8 @@
 import Logo from '@/assets/images/logo.svg'
 import AttentionIcon from '@/assets/icons/attention.svg'
-import Higher from '@/assets/icons/Higher.svg'
+import Higher from '@/assets/icons/higher.svg'
 import Warning from '@/assets/icons/warning.svg'
-import Check from '@/assets/icons/Check.svg'
+import Check from '@/assets/icons/check.svg'
 
 import SEO from '@/components/SEO'
 import { Container } from '@/styles/pages/Home'

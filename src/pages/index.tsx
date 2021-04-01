@@ -1,7 +1,7 @@
 import Logo from '@/assets/images/logo.svg'
 import AttentionIcon from '@/assets/icons/attention.svg'
 import Higher from '@/assets/icons/Higher.svg'
-import Warning from '@/assets/icons/Warning.svg'
+import Warning from '@/assets/icons/warning.svg'
 import Check from '@/assets/icons/Check.svg'
 
 import SEO from '@/components/SEO'

@@ -34,6 +34,7 @@ function CursorComponent({ color }: CursorProps): ReactElement {
       window.document.body.style.cursor = 'none'
 
       const { pageX, pageY } = event
+      console.log(event)
       const elem = event.path[0]
       setDisabled(disable.includes(elem.tagName.toLocaleLowerCase()))
 

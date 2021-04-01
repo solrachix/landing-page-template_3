@@ -50,7 +50,6 @@ export default function SmoothProvider(_a) {
   const size = useWindowSize()
   useRef()
   // Ref for parent div and scrolling div
-  const app = useRef(null)
   const scrollContainer = useRef(null)
   // Configs
   const data = {

@@ -10,6 +10,9 @@ export default createGlobalStyle`
   }
   html, body, #__next {
     /* scroll-behavior: smooth; */
+    
+    max-height: 100vh;
+    /* overflow: hidden; */
 
     background: ${props => props.theme.colors.background.normal};
     color: ${props => props.theme.colors.text.normal};

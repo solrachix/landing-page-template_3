@@ -28,10 +28,10 @@
 <path d="M223.5 104.625C244.003 104.625 260.625 88.0032 260.625 67.4997C260.625 46.9961 244.003 30.3747 223.5 30.3747C202.996 30.3747 186.375 46.9961 186.375 67.4997C186.375 88.0032 202.996 104.625 223.5 104.625Z" stroke="#FD951F" stroke-width="3"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear" x1="-1.26928e-06" y1="8" x2="433.5" y2="594" gradientUnits="userSpaceOnUse">
-<stop offset="0.128479" stop-color="#064523" stop-opacity="0.7"/>
-<stop offset="0.462192" stop-color="#064523" stop-opacity="0.7"/>
-<stop offset="0.989359" stop-color="#11251C" stop-opacity="0.7"/>
+<linearGradient id="paint0_linear" x1="-108.5" y1="-151.5" x2="433.5" y2="594" gradientUnits="userSpaceOnUse">
+<stop offset="0.228006" stop-color="#04D361" stop-opacity="0.7"/>
+<stop offset="0.755208" stop-color="#064523" stop-opacity="0.7"/>
+<stop offset="1" stop-color="#064523" stop-opacity="0.7"/>
 </linearGradient>
 <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(223.203 370.537) scale(133.43 133.251)">
 <stop stop-color="#68E5A0"/>

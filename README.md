@@ -1,7 +1,6 @@
-
 <h1 align="center">
-  <a href="https://github.com/solrachix/moveit">
-    <img alt="Move.it Logo" src="https://github.com/solrachix/moveit/blob/master/public/images/logo-full.svg?raw=true" />
+  <a href="https://github.com/solrachix/landing-page-template_3">
+    <img alt="Move.it Logo" src="https://github.com/solrachix/landing-page-template_3/blob/master/public/images/logo-full.svg?raw=true" />
   </a>
 </h1>
 
@@ -14,38 +13,25 @@
    <a href="https://www.linkedin.com/in/carlos-miguel-380413197">
       <img alt="Carlos Miguel" src="https://img.shields.io/badge/-Carlos%20Miguel-5965e0?style=for-the-badge&logo=Linkedin&logoColor=white" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/solrachix/moveit?style=for-the-badge&label=Repo%20Size:&labelColor=5965e0&color=5965e0">
-	<br />
-  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/omnistack/edicao/2">
-    <img src="https://img.shields.io/badge/moveit-11.01.20-5965e0?style=for-the-badge&labelColor=5965e0"></img>
+     <a aria-label="Completed" href="https://nextlevelweek.com/episodios/omnistack/edicao/2">
+    <img src="https://img.shields.io/badge/landing_page_template_3-11.01.20-5965e0?style=for-the-badge&labelColor=5965e0"></img>
   </a>
-  <a href="https://github.com/solrachix/moveit/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/solrachix/moveit?style=for-the-badge&label=last%20commit:&labelColor=5965e0&color=5965e0">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/solrachix/landing-page-template_3?style=for-the-badge&label=Repo%20Size:&labelColor=5965e0&color=5965e0">
+  <a href="https://github.com/solrachix/landing-page-template_3/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/solrachix/landing-page-template_3?style=for-the-badge&label=last%20commit:&labelColor=5965e0&color=5965e0">
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0?style=for-the-badge&labelColor=5965e0&color=5965e0">
   <br />
-  <a href="https://github.com/solrachix/moveit/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/solrachix/moveit?color=FF4400&logo=github">
+  <a href="https://github.com/solrachix/landing-page-template_3/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/solrachix/landing-page-template_3?color=FF4400&logo=github">
   </a>
 </p>
 <p align="center">
-    <img alt="Move.it Logo" src="https://github.com/solrachix/moveit/blob/master/public/images/dashboard-full.svg?raw=true" />
+    <img alt="landing-page-template_3 Logo" src="https://github.com/solrachix/moveit/blob/master/public/images/dashboard-full.svg?raw=true" />
 </p>
 
 ---
 
-## Table of Contents
-
-<ul>
-  <li><a href="#-getting-started">Getting Started</a></li>
-  <li><a href="#-challenges">Chalenges</a></li>
-  <li><a href="#-features">Features</a></li>
-  <li><a href="#-contributing">Contributing</a></li>
-  <li><a href="#-support">Support</a></li>
-  <li><a href="#-license">License</a></li>
-</ul>
-
----
 
 ## 🚀 Getting Started
 
@@ -62,7 +48,7 @@
 - Clone this repo to your local machine using:
 
 ```
-https://github.com/solrachix/moveit
+https://github.com/solrachix/landing-page-template_3
 ```
 
 ### Setup
@@ -84,38 +70,8 @@ https://github.com/solrachix/moveit
 
 ---
 
-## ⚔ Challenges
-
-  - [ ] Create Documentation
-    - [ ] GIF
-    - [ ] Example Video
-    - [x] Awesome Readme
-    - [x] Techs used
-    - [x] Project Setup
-    - [ ] Features
-    - [x] Pages Prints
-  - [x] Improve Styles
-    - [x] Few adjustments to make the style equal to the layout
-    - [x] Add Media queries
-    - [x] Create Theme Switcher
-    - [x] Create Dark Theme
-  - [ ] Add PWA Feature
-  - [ ] move.it 2.0
-    - [x] Few adjustments to make the style equal to the layout
-    - [x] SignIn Page
-    - [ ] Github login
-    - [x] Sidebar Menu
-    - [x] Leaderboard
-    - [ ] Twitter Sharing Button
-    - [ ] Generate Twitter thumb to share
-
----
-
 ## 📋 Features
 
-### Documentation
-
-- [ ] WIP ...
 
 ### Build with
 
@@ -135,7 +91,7 @@ https://github.com/solrachix/moveit
 
 ### Step 2
 
-- 👯  Clone this repo to your local machine using `https://github.com/solrachix/moveit`
+- 👯  Clone this repo to your local machine using `https://github.com/solrachix/landing-page-template_3`
 
 ### Step 3
 

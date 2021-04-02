@@ -1,14 +1,15 @@
 
+
  
 <p align="center">
   <a href="https://github.com/solrachix/landing-page-template_3">
     <img alt="Landing page template Logo" src="https://github.com/solrachix/landing-page-template_3/blob/master/public/logo-full.svg?raw=true" width="60%" />
   </a>
-  <img alt="Banner" src="https://github.com/solrachix/landing-page-template_3/blob/master/public/images/banner.svg?raw=true" width="40%" align="right" />
+ 
 </p>
 
 
-
+<img alt="Banner" src="https://github.com/solrachix/landing-page-template_3/blob/master/public/images/banner.svg?raw=true" width="30%" align="right" />
 <p align="center">A clone of the landing page interface of the rocketseat sales page, with nice things like animations and user interactions and smooth scrolling! Veja funcionando aqui: http://landing-page-template-3-solrachix.vercel.app
 </p>
 
@@ -33,7 +34,7 @@
   </a>
 </p>
 <p align="center">
-    <img alt="landing-page-template_3 Logo" src="https://github.com/solrachix/moveit/blob/master/public/images/dashboard-full.svg?raw=true" />
+    <img alt="landing-page-template_3 Logo" src="https://github.com/solrachix/landing-page-template_3/blob/master/public/images/template.png?raw=true" />
 </p>
 
 ---

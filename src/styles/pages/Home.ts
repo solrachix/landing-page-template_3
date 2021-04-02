@@ -8,6 +8,7 @@ export const Container = styled.div`
   video {
     height: auto;
     max-width: 100%;
+    width: 100%;
   }
 
   section {
@@ -226,6 +227,10 @@ export const Container = styled.div`
             right: 0;
             bottom: -28px;
           }
+        }
+
+        .polygonMobile {
+          display: none;
         }
       }
       .methodologyContent {
@@ -453,6 +458,7 @@ export const Container = styled.div`
         position: relative;
 
         .advanceLeft {
+          z-index: 5;
           h2 {
             max-width: 525px;
             margin-bottom: 32px;
@@ -489,6 +495,8 @@ export const Container = styled.div`
         .advanceRight {
           right: 0;
           position: absolute;
+
+          z-index: 0;
         }
       }
     }
@@ -581,6 +589,10 @@ export const Container = styled.div`
         svg {
           top: -22%;
           position: absolute;
+
+          path {
+            fill: ${props => props.theme.colors.orange};
+          }
         }
 
         .warningBackground {
@@ -662,6 +674,17 @@ export const Container = styled.div`
 
   @media (max-width: 1100px) {
     section {
+      &.capture {
+        .captureContent {
+        }
+
+        .captureAction {
+          top: -20%;
+          min-width: 350px;
+          padding: 40px 24px 32px;
+        }
+      }
+
       &.summary {
         .summaryRight div {
           font-size: 16px;
@@ -675,6 +698,311 @@ export const Container = styled.div`
     section {
       .container {
         margin: 0 24px;
+      }
+    }
+  }
+
+  @media (max-width: 960px) {
+    section {
+      .container {
+        width: 100%;
+      }
+      .titleSection {
+        font-size: 40px;
+      }
+
+      &.capture {
+        min-height: unset;
+
+        & > div {
+          flex-direction: column;
+        }
+        .captureContent {
+          h1 {
+            margin-top: 48px;
+          }
+          h2 {
+            margin-bottom: 40px;
+          }
+          button {
+            display: none;
+          }
+        }
+
+        .captureAction {
+          flex: 1 1;
+          position: unset;
+          min-height: unset;
+          max-width: none;
+          min-width: none;
+          border-radius: 5px;
+          min-width: 100px;
+
+          .bgt {
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .logo {
+            margin: 32px 0;
+            svg {
+              max-height: 200px;
+            }
+          }
+        }
+      }
+
+      &.methodology {
+        padding-top: 120px;
+
+        & > div {
+          flex-direction: column-reverse;
+
+          .methodologyPolygon {
+            margin-top: 40px;
+          }
+          .methodologyContent {
+            h2,
+            h3,
+            p {
+              max-width: none;
+            }
+          }
+        }
+      }
+
+      &.whyIgnite {
+        padding: 120px 0;
+
+        .whyIgniteDown {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      &.trails {
+        padding-bottom: 120px;
+
+        .trailsDown {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      &.advance {
+        padding-bottom: 120px;
+
+        .advanceRight {
+          /* display: none; */
+        }
+        .advanceLeft {
+          width: 100%;
+        }
+      }
+
+      &.testimony {
+        padding-bottom: 80px;
+
+        & > div {
+          flex-direction: column;
+
+          .testimonyLeft,
+          .testimonyLeft h2 {
+            max-width: none;
+          }
+
+          .testimonyLeft p {
+            max-width: 800px;
+            margin-bottom: 64px;
+          }
+        }
+      }
+
+      &.testimonyVideo {
+        padding-bottom: 120px;
+
+        .testimonyVideoContent {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      &.warning {
+        padding-top: 90px;
+        padding-bottom: 120px;
+        background-size: cover;
+        background: url('/images/spoiler.svg') 50% no-repeat;
+
+        & > div {
+          position: relative;
+          align-items: center;
+          flex-direction: column;
+          svg {
+            top: -12%;
+            width: 88px;
+            height: 88px;
+          }
+
+          .warningBackground {
+            background: none;
+          }
+        }
+      }
+
+      &.summary {
+        padding-bottom: 120px;
+
+        & > div {
+          flex-direction: column;
+
+          .summaryRight {
+            grid-gap: 24px;
+            gap: 24px;
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    section {
+      .titleSection {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+      }
+
+      &.capture {
+        padding-bottom: 120px;
+
+        .captureContent {
+          h1 {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 50px;
+            margin-bottom: 19px;
+          }
+          h2 {
+            max-width: 290px;
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 44px;
+          }
+          button {
+            display: none;
+          }
+        }
+
+        .captureAction {
+          .logo svg {
+            max-height: 200px;
+          }
+        }
+      }
+
+      &.methodology {
+        padding-top: 120px 0;
+
+        & > div {
+          flex-direction: column-reverse;
+
+          .methodologyPolygon {
+            margin-top: 40px;
+
+            .methodologyPolygonGrid {
+              display: none;
+            }
+            .polygonMobile {
+              display: block;
+            }
+          }
+          .methodologyContent {
+            h2 {
+              max-width: 198px;
+              margin-bottom: 16px;
+            }
+            h3 {
+              max-width: 327px;
+              margin-bottom: 16px;
+            }
+            p {
+              max-width: 290px;
+            }
+          }
+        }
+      }
+
+      &.whyIgnite {
+        padding-top: 0;
+        padding-bottom: 120px;
+
+        .whyIgniteDown {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      &.trails {
+        padding-bottom: 120px;
+
+        .trailsDown {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      &.advance {
+        padding-bottom: 120px;
+
+        & > div {
+          .advanceLeft {
+            p {
+              max-width: 327px;
+              margin-bottom: 24px;
+            }
+            .higher {
+              display: none;
+            }
+            .mobile {
+              display: block;
+            }
+          }
+          .advanceRight {
+            display: block;
+          }
+        }
+      }
+
+      &.testimony {
+        & > div {
+          .testimonyLeft p {
+            font-size: 16px;
+            margin-bottom: 32px;
+          }
+          .testimonyRight {
+            max-width: 300px;
+
+            margin: auto;
+
+            .testimonyOptionsArrow button {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+
+      &.testimonyVideo {
+        .testimonyVideoContent {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      &.warning {
+      }
+
+      &.summary {
+        & > div {
+          .summaryRight {
+            grid-gap: 24px;
+            gap: 24px;
+            grid-template-columns: repeat(1, 1fr);
+          }
+        }
       }
     }
   }

@@ -76,7 +76,7 @@ export const DarkTheme = {
     purple: '#6633cc',
     purpleDark: '#5A4B81',
     green: '#04d361',
-    orange: '#ff7a29',
+    orange: '#fd951f',
     pink: '#FF79C6',
     blue: '#2436e8' /** #5659eb */,
     red: '#ce4a4a',

@@ -56,9 +56,9 @@ const App = () => {
               <h3>
                 As matrículas serão <br /> abertas em breve.
               </h3>
-              <div className="logo">
-                <Logo />
-              </div>
+            </div>
+            <div className="logo">
+              <Logo />
             </div>
           </div>
         </div>
@@ -86,6 +86,9 @@ const App = () => {
                 </span>
               </div>
             </div>
+            <dib className="polygonMobile">
+              <img src="/images/polygon-mobile.svg" alt="" />
+            </dib>
           </div>
           <div className="methodologyContent">
             <h2 className="titleSection">Como você vai aprender</h2>

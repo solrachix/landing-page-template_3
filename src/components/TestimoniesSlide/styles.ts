@@ -47,6 +47,12 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 960px) {
+    .testimonyOptionsArrow button {
+      margin-left: 0;
+    }
+  }
 `
 
 export const Comment = styled.div`
@@ -87,6 +93,12 @@ export const Comment = styled.div`
 
     .swiper-wrapper {
       display: flex;
+    }
+  }
+
+  @media (max-width: 960px) {
+    & > svg {
+      margin-right: 0px;
     }
   }
 `

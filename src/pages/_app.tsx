@@ -11,7 +11,7 @@ export default function App({
 }: AppProps) {
   return (
     <Context>
-      <PageTransition>
+      {/* <PageTransition>
         {({ Component, pageProps }) => (
           <GlobalAnimations>
             {Component ? (
@@ -21,8 +21,8 @@ export default function App({
             )}
           </GlobalAnimations>
         )}
-      </PageTransition>
-      {/* <SsrComponent {...ssrPageProps} /> */}
+      </PageTransition> */}
+      <SsrComponent {...ssrPageProps} />
     </Context>
   )
 }

@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/solrachix/landing-page-template_3">
-    <img alt="Move.it Logo" src="https://github.com/solrachix/landing-page-template_3/blob/master/public/images/logo-full.svg?raw=true" />
+    <img alt="Landing page template Logo" src="https://github.com/solrachix/landing-page-template_3/blob/master/public/logo-full.svg?raw=true" width="60%" />
   </a>
 </h1>
 
@@ -8,19 +8,19 @@
 
 <p align="center">
   <a href="https://github.com/solrachix">
-  <img alt="Made by Carlos Miguel" src="https://img.shields.io/badge/-Github-5659EB?style=for-the-badge&logo=Github&logoColor=white&link=https://github.com/solrachix" />
+  <img alt="Made by Carlos Miguel" src="https://img.shields.io/badge/-Github-04d361?style=for-the-badge&logo=Github&logoColor=white&link=https://github.com/solrachix" />
   </a>
    <a href="https://www.linkedin.com/in/carlos-miguel-380413197">
-      <img alt="Carlos Miguel" src="https://img.shields.io/badge/-Carlos%20Miguel-5965e0?style=for-the-badge&logo=Linkedin&logoColor=white" />
+      <img alt="Carlos Miguel" src="https://img.shields.io/badge/-Carlos%20Miguel-04d361?style=for-the-badge&logo=Linkedin&logoColor=white" />
    </a>
      <a aria-label="Completed" href="https://nextlevelweek.com/episodios/omnistack/edicao/2">
-    <img src="https://img.shields.io/badge/landing_page_template_3-11.01.20-5965e0?style=for-the-badge&labelColor=5965e0"></img>
+    <img src="https://img.shields.io/badge/landing_page_template_3-11.01.20-04d361?style=for-the-badge&labelColor=04d361"></img>
   </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/solrachix/landing-page-template_3?style=for-the-badge&label=Repo%20Size:&labelColor=5965e0&color=5965e0">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/solrachix/landing-page-template_3?style=for-the-badge&label=Repo%20Size:&labelColor=04d361&color=04d361">
   <a href="https://github.com/solrachix/landing-page-template_3/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/solrachix/landing-page-template_3?style=for-the-badge&label=last%20commit:&labelColor=5965e0&color=5965e0">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/solrachix/landing-page-template_3?style=for-the-badge&label=last%20commit:&labelColor=04d361&color=04d361">
   </a>
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0?style=for-the-badge&labelColor=5965e0&color=5965e0">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-04d361?style=for-the-badge&labelColor=04d361&color=04d361">
   <br />
   <a href="https://github.com/solrachix/landing-page-template_3/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/solrachix/landing-page-template_3?color=FF4400&logo=github">

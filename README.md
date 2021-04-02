@@ -4,7 +4,7 @@
   </a>
 </h1>
 
-<p align="center">Move.it is a project created by Rocketseat initially to be a platform that combines the technique of pomodoro, which consists of alternating cycles of focus and rest, with exercises for well-being for those who spend many hours in front of a computer, which can be harmful to health when you do no exercise or take periods of rest!</p>
+<p align="center">A clone of the landing page interface of the rocketseat sales page, with nice things like animations and user interactions and smooth scrolling!</p>
 
 <p align="center">
   <a href="https://github.com/solrachix">

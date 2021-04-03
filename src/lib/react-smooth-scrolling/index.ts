@@ -75,7 +75,7 @@ export default function SmoothProvider(_a) {
       const difference = data.current - data.rounded
       const acceleration = difference / size.width
       const velocity = +acceleration
-      const graus = velocity * (isMobile ? 1 : 7.5)
+      const graus = velocity * (isMobile() ? 0.5 : 7.5)
       const skewing = skew ? velocity * graus : 0
       // Assign skew and smooth scrolling to the scroll container
       if (

@@ -22,7 +22,10 @@ export default function App({
           </GlobalAnimations>
         )}
       </PageTransition>
-      {/* <SsrComponent {...ssrPageProps} /> */}
+
+      {/* <GlobalAnimations>
+      <SsrComponent {...ssrPageProps} />
+      </GlobalAnimations> */}
     </Context>
   )
 }

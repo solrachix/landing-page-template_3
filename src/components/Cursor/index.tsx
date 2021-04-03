@@ -1,6 +1,7 @@
 import { ReactElement, useEffect, useState } from 'react'
 
 import { useTrail } from 'react-spring'
+import onTouch from './onTouch'
 
 import { Cursor, CursorSphere } from './styles'
 
@@ -30,6 +31,8 @@ function CursorComponent({ color }: CursorProps): ReactElement {
   }
 
   useEffect(() => {
+    window.addEventListener('touchmove', onTouch)
+
     window.addEventListener('mousemove', (event: Event) => {
       window.document.body.style.cursor = 'none'
 

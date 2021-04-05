@@ -2,7 +2,7 @@
   "project_name": "Rocketseat Landing Page",
   "type": "web",
   
-  "template_url": "./public/imaged/template.png",
+  "template_url": "./public/images/template.png",
   "logo_url": "./src/assets/logo.svg",
 
   "web": "./"

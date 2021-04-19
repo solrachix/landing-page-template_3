@@ -10,7 +10,8 @@
 
 
 <img alt="Banner" src="https://github.com/solrachix/landing-page-template_3/blob/master/public/images/banner.svg?raw=true" width="30%" align="right" />
-<p align="center">A clone of the landing page interface of the rocketseat sales page, with nice things like animations and user interactions and smooth scrolling! Veja funcionando aqui: http://landing-page-template-3-solrachix.vercel.app
+<p align="center">A clone of the landing page interface of the rocketseat sales page, with nice things like animations and user interactions and smooth scrolling! Veja funcionando
+ <a href="http://landing-page-template-3-solrachix.vercel.app"> aqui</a>.
 </p>
 
 <p align="center">
@@ -131,7 +132,7 @@ Reach out to me at one of the following places!
 
 ## 📝 License
 
-<img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361?color=rgb(89,101,224)">
+<img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361?color=rgb(89,101,224)" />
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 

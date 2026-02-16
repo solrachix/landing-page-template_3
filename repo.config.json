@@ -2,8 +2,8 @@
   "project_name": "Rocketseat Landing Page",
   "type": "web",
   
-  "template_url": "./public/images/cover.png",
-  "logo_url": "./src/assets/logo.svg",
+  "template_url": "https://github.com/solrachix/landing-page-template_3/blob/master/public/images/cover.png?raw=true",
+  "logo_url": "https://github.com/solrachix/landing-page-template_3/blob/master/src/assets/logo.svg?raw=true",
 
   "web": "./"
 }

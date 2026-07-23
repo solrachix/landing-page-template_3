@@ -185,7 +185,14 @@ export const Container = styled.div`
           text-align: center;
 
           background-size: cover;
-          background: url('/images/polygon.png') 50% no-repeat;
+          background-image: url('/images/polygon.png');
+          background-image: image-set(
+            url('/images/polygon.avif') type('image/avif'),
+            url('/images/polygon.webp') type('image/webp'),
+            url('/images/polygon.png') type('image/png')
+          );
+          background-position: 50%;
+          background-repeat: no-repeat;
 
           strong {
             font-size: 36px;
@@ -435,6 +442,10 @@ export const Container = styled.div`
                   border-radius: 50%;
                   margin-right: 24px;
                 }
+                picture {
+                  display: block;
+                  line-height: 0;
+                }
                 h3 {
                   font-size: 24px;
                   font-weight: 700;
@@ -483,7 +494,14 @@ export const Container = styled.div`
               right: 0;
               bottom: 0;
               z-index: 1;
-              background: url('/images/Higher.png') 100% no-repeat;
+              background-image: url('/images/Higher.png');
+              background-image: image-set(
+                url('/images/Higher.avif') type('image/avif'),
+                url('/images/Higher.webp') type('image/webp'),
+                url('/images/Higher.png') type('image/png')
+              );
+              background-position: 100%;
+              background-repeat: no-repeat;
               background-size: cover;
             }
           }

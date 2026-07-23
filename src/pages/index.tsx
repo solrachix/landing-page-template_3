@@ -350,7 +350,11 @@ const App = () => {
                   <div className="teacher">
                     <span>Educador:</span>
                     <div>
-                      <img src={trail.teacherAvatar} alt={trail.teacher} />
+                      <picture>
+                        <source srcSet={trail.teacherAvatar.replace(/\.(jpg|jpeg|png)$/, '.avif')} type="image/avif" />
+                        <source srcSet={trail.teacherAvatar.replace(/\.(jpg|jpeg|png)$/, '.webp')} type="image/webp" />
+                        <img src={trail.teacherAvatar} loading="lazy" decoding="async" alt={trail.teacher} />
+                      </picture>
                       <h3 className="subTitleSection">{trail.teacher}</h3>
                     </div>
                     <p className="paragraph">{trail.teacherDescription}</p>
@@ -399,7 +403,11 @@ const App = () => {
             </p>
             <div className="higher"></div>
             <div className="mobile">
-              <img src="/images/HigherMobile.png" alt="Higher" />
+              <picture>
+                <source srcSet="/images/HigherMobile.avif" type="image/avif" />
+                <source srcSet="/images/HigherMobile.webp" type="image/webp" />
+                <img src="/images/HigherMobile.png" loading="lazy" decoding="async" alt="Higher" />
+              </picture>
             </div>
           </div>
           <div className="advanceRight">
